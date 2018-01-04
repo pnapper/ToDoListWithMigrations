@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ToDoListWithMigrations.Models
 {
+    [Table("Categories")]
     public class Category
     {
 		[Key]
